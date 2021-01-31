@@ -1,4 +1,16 @@
- /* ------------------------------------------------------- Fons-------------------------------------------------------------- */
+/* ------------------------------------------------------- Fons-------------------------------------------------------------- */
+
+@font-face { 
+  font-family: "Wisdom";  
+  src: url("../fonts/Wisdom\ Script\ AJ.otf"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
+        
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  @import url('https://uk.allfont.net/allfont.css?fonts=droid-serif');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 /* -------------------------------------------------- End Fons--------------------------------------------------------------  */
 
@@ -42,10 +54,13 @@ body{
   margin-bottom: 136 px; 
 } 
  
-.logo { 
-  color: #95e1d3;
+.logo {
+  font-size: 26px;
+  font-family: "Wisdom";
+  line-height: 1.577;
+  color: #fed136;
   text-decoration: none;
-} 
+}
 
 .menu { 
   color: #95e1d3; 
@@ -62,66 +77,38 @@ body{
 }
  
 .menu-item__link { 
-  font-size: 14px;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  line-height: 2.929;
   text-decoration: none;
-} 
- 
-.menu-item__link::after { 
-  content: ""; 
-  display: block; 
-  height: 3px; 
-  width: 0; 
-  background-color: #f38181; 
-  transition: 0.2s linear all; 
-} 
- 
-.menu-item__link:hover::after { 
-  width: 100%; 
-} 
+  font-weight: bold;
+  transition:  0.2s linear all;
+}  
  
 .menu-item__link:hover { 
-  color: #f38181; 
+  color: #fed136; 
 }
 
 /* ---------------------------------------------------End Menu-------------------------------------------------------------- */
 /* -------------------------------------------------- Services-------------------------------------------------------------- */
 
 .title-1{
-  font-size: 20px;
-  font-weight: 700;
-  color: rgb(85, 85, 85);
-  text-transform: uppercase;
-  line-height: 1.2;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  line-height: 4.167;
   text-align: center;
-  margin-bottom: 12px;
-  margin-top: 105px;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 24px;
-  color: rgb(51, 51, 51);
-  line-height: 1.2;
+  font-weight: 900;
 }
 
 .title-2 {
-  font-size: 30px;
-  font-weight: 700;
-  color: rgb(85, 85, 85);
-  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'DroidSerif', serif;
+  color: rgb(119, 119, 119);
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 28px;
-  font-family: 'Montserrat';
-  color: rgb(51, 51, 51);
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-.title-2::after {
-  content: "";
-  display: block;
-  background-color: #f38181;
-  width: 50px;
-  height: 2px;
-  margin: 28px auto 0;
 }
 
 .box-title_1{
@@ -151,6 +138,8 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 29px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .serv-text{
@@ -158,11 +147,27 @@ body{
   justify-content: center;
   text-align: center;
   margin-top: 24px;
+  font-size: 14px;
+  font-family: 'RobotoSlab', serif;
+  color: rgb(119, 119, 119);
+  line-height: 1.2;
 }
 
-.img-s-1{
-  position: absolute;
-  top: 27%;
+.img-container{
+  background-image: url('../images/circle.png');
+  background-repeat: no-repeat;
+  height: 72px;
+  width: 72px;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  margin-left: 139px;
+}
+
+.img-s-2{
+  position: static;
+  height: 41px;
+  margin-top: 15px;
 }
 /* --------------------------------------------------End Services----------------------------------------------------------- */
 /* --------------------------------------------------Footer----------------------------------------------------------------- */
@@ -171,8 +176,84 @@ body{
     background: #222222;
 }
 
+.footer-s{
+  background: #222222;
+  position: static;
+}
 
+.footer-container{
+  display: flex;
+  justify-content: center;
+}
 
+.f-form{
+  width: 940px;
+  position: absolute;
+  top: 898px;
+  left: 19%;
 
+}
 
+.img-map{
+  position: relative;
+  left: 57%;
+  top: 121px;
+}
+
+.i-c-1-2{
+  display: flex;
+}
+
+.i-1{
+  height: 54px;
+  width: 455px;
+  margin-bottom: 24.5px;
+  font-size: 14px;
+  font-family: "Monserrat", sans-serif;
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.i-c-1{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: "Montserrat", serif;
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.i-2{
+  height: 211px;
+  width: 455px;
+  margin-left: 30px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.i-c-3{
+  display: flex;
+  justify-content: center;
+}
+
+.i-3{
+  height: 67px;
+  width: 242px;
+  background-color: #fed136;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
 /* --------------------------------------------------End Footer------------------------------------------------------------- */
