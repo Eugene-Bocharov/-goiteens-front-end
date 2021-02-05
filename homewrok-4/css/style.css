@@ -13,7 +13,7 @@
 
 .container { 
   max-width: 1170px; 
-  margin: 0 auto; 
+  margin-left: 15%;
   padding: 0 15px; 
 } 
  
@@ -122,7 +122,7 @@
  /* -------------------------------------------------- Services-------------------------------------------------------------- */
 .service-item_1{
     display: flex;
-    max-width: 33.3%;
+    width: 33.3%;
     margin-bottom: 50px;
 }
 
@@ -130,9 +130,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 70%;
+    width: 1170;
     margin-left: 15%;
 }
+
+/* .container { 
+  max-width: 1170px; 
+  margin: 0 auto; 
+  padding: 0 15px; 
+} */
+
 
 .sersice-title{
   font-size: 14px;
@@ -162,8 +169,17 @@
 
   .developers{
     display: flex;
-    justify-content: space-around;
+    width: 1170px;
+    margin-left: 15%;
   }
+
+/* 
+  .container { 
+    max-width: 1170px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+  }
+   */
 
  .text-box-dev-title-1{
   display: flex;
@@ -186,14 +202,17 @@
 
  .developer-1{
    max-width: 380px;
+   margin-left: 30px;
  }
 
  .developer-2{
    max-width:380px ;
+   margin-left: 30px;
  }
 
  .developer-3{
    max-width:380px ;
+   margin-left: 30px;
  }
 
  .developer_item-heading{
@@ -306,5 +325,6 @@ padding: 7px;
 .a-text{
   color: #f38181;
   margin-left: 5px;
+  text-decoration: none;
 }
 /* -------------------------------------------------- End Footer-------------------------------------------------------------- */
