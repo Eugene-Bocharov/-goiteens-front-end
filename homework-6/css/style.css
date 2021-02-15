@@ -20,25 +20,10 @@
     box-sizing: border-box;
 }
 
-body{
-  height: 1318px;
-}
-
-.header{
-  height: 12%;
-}
-
-.main{
-  height: 37%;
-}
-
-.footer{
-  height: 51%;
-}
 /* ----------------------------------------------------- Menu---------------------------------------------------------------- */
 
 .container { 
-  max-width: 1170px; 
+  max-width: 970px; 
   margin: 0 auto; 
   padding: 0 15px; 
 } 
@@ -124,8 +109,6 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 70%;
-  margin-left: 15%;
 }
 
 .img-container{
@@ -161,7 +144,7 @@ body{
   background-position: center center;
   display: flex;
   justify-content: center;
-  margin-left: 41%;
+  margin: 0 auto;
 }
 
 .img-s-2{
@@ -173,25 +156,12 @@ body{
 /* --------------------------------------------------Footer----------------------------------------------------------------- */
 
 .footer{
-    background: #222222;
-}
-
-.footer-s{
-  background: #222222;
-  position: static;
+    background: #222222 url(../images/map.png) no-repeat  right bottom;
 }
 
 .footer-container{
   display: flex;
   justify-content: center;
-}
-
-.f-form{
-  width: 940px;
-  position: absolute;
-  top: 898px;
-  left: 23%;
-
 }
 
 .img-map{
@@ -205,8 +175,7 @@ body{
 }
 
 .i-1{
-  height: 54px;
-  width: 455px;
+  width: 100%;
   margin-bottom: 24.5px;
   font-size: 14px;
   font-family: "Monserrat", sans-serif;
@@ -214,6 +183,8 @@ body{
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
+  display: block;
+  padding: 10px;
 }
 
 .i-c-1{
@@ -228,8 +199,7 @@ body{
 }
 
 .i-2{
-  height: 211px;
-  width: 455px;
+  width: 100%;
   margin-left: 30px;
   font-size: 14px;
   font-family: "Montserrat";
@@ -238,6 +208,7 @@ body{
   text-transform: uppercase;
   line-height: 1.2;
   font-weight: 900;
+  padding: 10px;
 }
 
 .i-c-3{

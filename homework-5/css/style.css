@@ -12,9 +12,9 @@
 /* -------------------------------------------------- Menu-------------------------------------------------------------- */
 
 .container { 
-  max-width: 1170px; 
-  margin-left: 15%;
+  max-width: 1230px; 
   padding: 0 15px; 
+  margin: auto;
 } 
  
 .header { 
@@ -130,14 +130,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 1170;
-    margin-left: 15%;
+    margin-left: 30px;
 }
 
 /* .container { 
-  max-width: 1170px; 
-  margin: 0 auto; 
+  max-width: 1230px; 
   padding: 0 15px; 
+  margin: auto;
 } */
 
 
@@ -238,7 +237,7 @@
   top: 0;
 }
 
-.developer-2 {
+/* .developer-2 {
   width: 380px;
   height: 470px;
   background-color: rgb(149, 225, 211);
@@ -264,7 +263,7 @@
 
 .developer-3  :hover .ac-s {
   top: 0;
-}
+} */
 
 .ac-s {
   display: flex;
@@ -324,6 +323,15 @@
   /* height: 545px; */
   overflow: hidden;
   margin-bottom: 30px;
+}
+
+.img-container{
+
+}
+
+.img-container:hover{
+  top: -10;
+  left: -10;
 }
 
 .meet_our_team_block-display .img-container > img {
