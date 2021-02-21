@@ -8,7 +8,7 @@
   } 
         
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
   @import url('https://uk.allfont.net/allfont.css?fonts=droid-serif');
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
@@ -159,7 +159,59 @@
     background: #222222 url(../images/map.png) no-repeat  right bottom;
 }
 
-.footer-container{
+
+
+.title-3{
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 4.167;
+  text-align: center;
+  font-weight: 900;
+}
+
+.title-4 {
+  font-size: 14px;
+  font-family: 'DroidSerif', serif;
+  color: rgb(119, 119, 119);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.box-title_2{
+  padding-top: 36px;
+}
+
+/* .title-1{
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  line-height: 4.167;
+  text-align: center;
+  font-weight: 900;
+}
+
+.box-title_1{
+    padding-bottom: 66px;
+}
+
+.title-2 {
+  font-size: 14px;
+  font-family: 'DroidSerif', serif;
+  color: rgb(119, 119, 119);
+  line-height: 1.2;
+  text-align: center;
+} */
+
+
+.f-form{
+  padding-top: 75px;
+  padding-bottom: 115px;
+}
+
+.f-d{
   display: flex;
   justify-content: center;
 }
@@ -188,6 +240,8 @@
 }
 
 .i-c-1{
+
+  width: 100%;
   display: flex;
   flex-direction: column;
   font-size: 14px;
@@ -211,9 +265,16 @@
   padding: 10px;
 }
 
-.i-c-3{
+.i-c-2{
+  width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: "Montserrat", serif;
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 
 .i-3{
@@ -226,5 +287,10 @@
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
+}
+
+.i-c-3{
+  display: flex;
+  justify-content: center;
 }
 /* --------------------------------------------------End Footer------------------------------------------------------------- */

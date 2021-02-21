@@ -292,6 +292,11 @@
   transition: all 0.3s linear;
 }
 
+.ac-s{
+  top: -10;
+  left: -10;
+}
+
 .dev_img {
   width: 380px;
   height: 470px;
@@ -325,9 +330,9 @@
   margin-bottom: 30px;
 }
 
-.img-container{
+/* .img-container{
 
-}
+} */
 
 .img-container:hover{
   top: -10;
