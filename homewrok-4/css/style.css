@@ -1,7 +1,7 @@
 /* ------------------------------Fons----------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /* ------------------------------End fons------------------- */
 *{
@@ -9,28 +9,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 /* -------------------------------------------------- Menu-------------------------------------------------------------- */
 
 .container { 
   max-width: 1170px; 
-  margin-left: 15%;
+  margin: 0 auto;
   padding: 0 15px; 
 } 
  
 .header { 
   padding-top: 40px; 
   background-size: cover; 
+  margin-bottom: 131px;
 } 
  
 .navigation { 
   display: flex; 
   justify-content: space-between; 
-  margin-bottom: 136 px; 
 } 
  
 .logo { 
   font-size: 30px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.2;
   color: #95e1d3;
@@ -57,9 +68,11 @@
   color: #95e1d3;
   line-height: 1.2;
   text-decoration: none;
+  text-transform: uppercase;
 } 
  
 .menu-item__link::after { 
+  margin-top: 10px;
   content: ""; 
   display: block; 
   height: 3px; 
@@ -86,7 +99,6 @@
     line-height: 1.2;
     text-align: center;
     margin-bottom: 12px;
-    margin-top: 105px;
     font-family: 'Kaushan Script',  cursive;
     font-size: 24px;
     color: rgb(51, 51, 51);
@@ -115,7 +127,6 @@
 }
   .box-title_1{
       padding-bottom: 66px;
-      padding-top: 100px;
   }
 
  /* ---------------------------------------------------End Title-1----------------------------------------------------------- */
@@ -124,14 +135,15 @@
     display: flex;
     width: 33.3%;
     margin-bottom: 50px;
+    padding-right: 15px;
 }
 
 .serv-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 1170;
-    margin-left: 15%;
+    /* width: 1170;
+    margin-left: 15%; */
 }
 
 /* .container { 
@@ -141,9 +153,9 @@
 } */
 
 
-.sersice-title{
+.service-title{
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
   text-transform: uppercase;
 }
@@ -153,6 +165,7 @@
   font-family: "Roboto";
   color: rgb(153, 153, 153);
   line-height: 1.6;
+  padding-left: 62px;
 }
 
 .service-item_top{
@@ -160,7 +173,8 @@
 }
 
 .img-service_container{
-    margin-right: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
     margin-bottom: 25px;
 }
 
@@ -169,8 +183,6 @@
 
   .developers{
     display: flex;
-    width: 1170px;
-    margin-left: 15%;
   }
 
 /* 
@@ -181,7 +193,7 @@
   }
    */
 
- .text-box-dev-title-1{
+.text-box-dev-title-1{
   display: flex;
   justify-content: center;
   font-size: 15px;
@@ -200,20 +212,17 @@
    line-height: 1.6;
  }
 
- .developer-1{
+.developers{
+  margin-left: -30px;
+}
+
+ .developer-item{
    max-width: 380px;
    margin-left: 30px;
+   width: 33.33%;
+   min-width: 200px;
  }
 
- .developer-2{
-   max-width:380px ;
-   margin-left: 30px;
- }
-
- .developer-3{
-   max-width:380px ;
-   margin-left: 30px;
- }
 
  .developer_item-heading{
    display: flex;
@@ -235,28 +244,32 @@
    font-style: italic;
    line-height: 1.6;
    margin-top: 19px;
+   margin-bottom: 62px;
  }
  /* --------------------------------------------------End Developers------------------------------------------------------------- */
 /* -------------------------------------------------- Footer-------------------------------------------------------------- */
 .footer-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  border-top: #e5e5e5 solid 1px ;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  
 }
 
 
-.footer-container::before{
+/* .footer-container::before{
    margin-bottom: 10px;
   content: "";
   display: block;
   background-color:#e5e5e5;
-  width: 1085px;
+  width: 100%;
   height: 1px;
   margin-top: 86px;
   /* margin-left: 119px; */
-}
 
 .f-element{
   display: flex;
