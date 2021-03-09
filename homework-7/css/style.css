@@ -1,0 +1,37 @@
+ /* ------------------------------------------------------- Fons-------------------------------------------------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* -------------------------------------------------- End Fons--------------------------------------------------------------  */
+
+/* -------------------------------------------------- Head------------------------------------------------------------------  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+ max-width: 942px;
+ display: flex;
+ justify-content: space-between;
+}
+/* -------------------------------------------------- End Head--------------------------------------------------------------  */
+
+/* -------------------------------------------------- Header------------------------------------------------------------------  */
+.header{
+    background-image: url(../images/h-bg.png);
+    display: flex;
+    justify-content: center;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+}
+/* -------------------------------------------------- End Header--------------------------------------------------------------  */

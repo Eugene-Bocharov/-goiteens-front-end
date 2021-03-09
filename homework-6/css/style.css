@@ -6,7 +6,8 @@
   font-style: normal; 
   font-weight: normal; 
   } 
-        
+  
+  @import url('https://allfont.ru/allfont.css?fonts=droid-serif');
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
   @import url('https://uk.allfont.net/allfont.css?fonts=droid-serif');
@@ -79,25 +80,41 @@
 /* -------------------------------------------------- Services-------------------------------------------------------------- */
 
 .title-1{
-  font-size: 40px;
+  /* font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 75px;
   font-family: "Montserrat", sans-serif;
   color:rgb(255, 255, 255);
   font-weight: bold;  
   line-height: 4.167;
   text-align: center;
-  color: rgb(34, 34, 34);
+  color: rgb(34, 34, 34); */
+  font-size: 40px;
+letter-spacing: -1px;
+line-height: 75px;
+color: #222222;
+font-weight: 700;
+font-family: "Montserrat", sans-serif;
+text-align: center;
 }
 
 .title-2 {
-  font-size: 14px;
+  /* font-size: 14px;
   font-family: 'DroidSerif', serif;
   color: rgb(119, 119, 119);
   line-height: 1.2;
+  text-align: center; */
+  font-size: 16px;
+  color: #777777;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif";
   text-align: center;
 }
 
 .box-title_1{
     padding-bottom: 66px;
+    margin-top: 87px;
 }
 
 .serv-container{
@@ -163,47 +180,64 @@
 
 .title-3{
   font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 75px;
+  text-align: center;
+
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title-4 {
+  font-size: 16px;
+color: #777777;
+font-weight: 400;
+font-style: italic;
+font-family: "Droid Serif";
+text-align: center;
+
+}
+
+.box-title_2{
+  padding-top: 36px;
+
+}
+
+/* /* .title-1{
+  /* font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 75px;
   font-family: "Montserrat", sans-serif;
   color:rgb(255, 255, 255);
   font-weight: bold;  
   line-height: 4.167;
   text-align: center;
-  /* font-weight: 700; */
-}
-
-.title-4 {
-  font-size: 14px;
-  font-family: 'DroidSerif', serif;
-  color: rgb(119, 119, 119);
-  line-height: 1.2;
-  text-align: center;
-}
-
-.box-title_2{
-  padding-top: 36px;
-}
-
-/* .title-1{
-  font-size: 18px;
+  color: rgb(34, 34, 34); */
+  /* font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 75px;
+  color: #222222;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  color: rgb(34, 34, 34);
-  font-weight: bold;
-  line-height: 4.167;
   text-align: center;
-  font-weight: 900;
-}
-
-.box-title_1{
-    padding-bottom: 66px;
-}
-
-.title-2 {
-  font-size: 14px;
-  font-family: 'DroidSerif', serif;
-  color: rgb(119, 119, 119);
-  line-height: 1.2;
-  text-align: center;
-} */
+  }
+   */ */
+  .title-2 {
+    /* font-size: 14px;
+    font-family: 'DroidSerif', serif;
+    color: rgb(119, 119, 119);
+    line-height: 1.2;
+    text-align: center; */
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Droid Serif";
+    text-align: center;
+  } */
 
 
 .f-form{
@@ -215,6 +249,8 @@
 .f-d{
   display: flex;
   justify-content: center;
+  margin-top: 75px;
+  padding-bottom: 116px;
 }
 
 .img-map{
@@ -225,6 +261,7 @@
 
 .i-c-1-2{
   display: flex;
+  margin-bottom: 30px;
 }
 
 .i-1{
@@ -242,7 +279,8 @@
 
 .i-c-1{
 
-  width: 100%;
+  width: 455px;
+  height: 55px;
   display: flex;
   flex-direction: column;
   font-size: 14px;
@@ -251,19 +289,22 @@
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
+  /* margin-bottom: 30px; */
 }
 
 .i-2{
-  width: 100%;
+  width: 455;
+  height: 213;
   margin-left: 30px;
   font-size: 14px;
-  font-family: "Montserrat", serif;
+  font-family: "Monserrat", sans-serif;
   color: rgb(187, 187, 187);
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
-  font-weight: 900;
+  display: block;
   padding: 10px;
+   font-weight: 900;
 }
 
 .i-c-2{
@@ -283,11 +324,14 @@
   width: 242px;
   background-color: #fed136;
   font-size: 18px;
-  font-family: "Montserrat";
   color: rgb(255, 255, 255);
+  font-family: "Monserrat", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
+  display: block;
+  padding: 10px;
+   font-weight: 900;
 }
 
 .i-c-3{
