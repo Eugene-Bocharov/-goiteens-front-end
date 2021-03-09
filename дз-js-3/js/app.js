@@ -8,19 +8,22 @@ let k4  = 'qwqweeewq';
 
 //  1
 
+console.log('Цілі числа:');
 
-console.log(Math.ceil (k1) );
-console.log(Math.ceil (k3) );
-console.log(Math.ceil (k4) );
-console.log(Math.ceil (k2) );
+console.log(Number.parseInt(k1));
+console.log(Number.parseInt(k2));
+console.log(Number.parseInt(k3));
+console.log(Number.parseInt(k4));
 
 //  2
 
 
-console.log(Math.floor (k1) ) ;
-console.log(Math.floor (k2) ) ;
-console.log(Math.floor (k3) ) ;
-console.log(Math.floor (k4) ) ;
+console.log('Дробові числа:');
+
+console.log(Number.parseFloat(k1));
+console.log(Number.parseFloat(k2));
+console.log(Number.parseFloat(k3));
+console.log(Number.parseFloat(k4));
 
 //  3
 
@@ -48,7 +51,7 @@ console.log(typeof`${result}`);
 //  6
 
 
-let email = '4002445@gmail.com';
+const email = '4002445@gmail.com';
 
 
 
@@ -76,3 +79,4 @@ let userName = 'Eugene';
 let payment = '299.99 гривнь';
 
 alert('Дякуемо, '  + `${userName}` + '!  До сплати ' + `${payment}`);
+
