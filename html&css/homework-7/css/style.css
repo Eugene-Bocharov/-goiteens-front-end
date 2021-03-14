@@ -329,12 +329,10 @@ body {
 
 /* ----------------------------------Tablet----------------------------------------- */
 @media (min-width: 768px) and (max-width: 1300px) {
-  
   .p-1-box {
-    width: 224px;
+    width: 236px;
   }
 }
-
 @media (min-width: 768px) and (max-width: 1300px) {
   
   .guys-s {
@@ -342,11 +340,8 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
-  
 }
-
 @media (min-width: 768px) and (max-width: 1300px) {
-  
   .container {
     max-width: 670px;
     margin: 0 auto;
@@ -355,7 +350,6 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1300px) {
-  
   .g-h-i-b-1{
     height: 32px;
     width: 32px;
@@ -369,11 +363,8 @@ body {
     left: 33%;
     top: 25%;
   }
-  
 }
-
 @media (min-width: 768px) and (max-width: 1300px) {
-  
   .g-h-i-b-2{
     height: 32px;
     width: 32px;
@@ -387,11 +378,8 @@ body {
     left: 78%;
     top: 25%;
   }
-
 }
- 
 @media (min-width: 768px) and (max-width: 1300px) {
-  
   .g-h-i-b-3{
     height: 32px;
     width: 32px;
@@ -405,11 +393,8 @@ body {
     left:33%;
     top: 72%;
   }
-
 } 
-
 @media (min-width: 768px) and (max-width: 1300px) {
-  
   .g-h-i-b-4{
     height: 32px;
     width: 32px;
@@ -423,17 +408,24 @@ body {
     left: 78%;
     top: 72%;
   }
-
 }
 
-
-
-
+@media (min-width: 768px) and (max-width: 1300px){
+    .box_3, .box_4{
+        margin-top: 56px;
+    }
+     .btn_footer{
+         margin-bottom: 40px;
+     }
+}
 /* ----------------------------------End Tablet----------------------------------------- */
-
-
 /* ----------------------------------Mobile--------------------------------------------- */
 
+@media (min-width: 320px) and (max-width: 700px){
+    .header{
+        padding-top: 28px;
+    }
+}
 @media (min-width: 320px) and (max-width: 700px) {
   
   .container {
@@ -441,45 +433,34 @@ body {
     margin: 0 auto;
     padding: 0;
   }
-
 }
-
 @media (min-width: 320px) and (max-width: 700px) {
-  
   .title_1_header {
       font-size: 30px;
-       font-family: "Montserrat";
+       font-family: "Montserrat", sans-serif;
        color: rgb(255, 255, 255);
        font-weight: bold;
        text-transform: uppercase;
        line-height: 1.2;
        text-align: center;
-     }
-
+    }
 }
-
 @media (min-width: 320px) and (max-width: 700px) {
-  
-
   .p-1-box {
     max-width: 224px;
+    margin-top: 25px;
   }
-  
+  .box_1{
+      margin-top: 13px;
+  }
 }
-
 @media (min-width: 320px) and (max-width: 700px) {
-  
-
-  
 .guys-s {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+    }
 }
- 
-}
- 
-
 @media (min-width: 320px) and (max-width: 700px) {
   
   .title_2_header {
@@ -489,33 +470,26 @@ body {
       font-family: "Montserrat";
       text-align: center;
     }
-
 }
-
 @media (min-width: 320px) and (max-width: 700px) {
-
   .title_3_header {
       font-size: 18px;
       color: #ffffff;
       font-weight: 300;
       font-family: "Roboto";
       text-align: center;
-     }
-
+      margin-top: 9px;
+      /* padding-bottom: 154px; */
+    }
 }
-
 @media (min-width: 320px) and (max-width: 700px) {
-
   .navigation {
       display: flex;
       flex-direction: column-reverse;
       justify-content: center;
     }
-
 }
-
 @media (min-width: 320px) and (max-width: 700px) {
-
   .logo {
       font-size: 20px;
       font-family: "Montserrat", sans-serif;
@@ -525,50 +499,42 @@ body {
       line-height: 1.2;
       text-decoration: none;
       text-align: center;
-      margin-top: 132px;
+      margin-top: 114px;
+      margin-bottom: 4px;
     }
 }
-
 @media (min-width: 320px) and (max-width: 700px) {
-
   .menu {
       color: #95e1d3;
       display: flex;
       align-items: center;
       /* margin-left: 600px; */
-      margin-left: 83px;
+      margin-left: 68px;
+    }
+}
+@media (min-width: 320px) and (max-width: 700px) {
+
+    .m-title-1{
+        font-size: 22px;
+        color: #333333;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
     }
 }
 
 @media (min-width: 320px) and (max-width: 700px) {
-
-      .m-title-1{
-          font-size: 22px;
-          color: #333333;
-          font-weight: 700;
-          font-family: "Montserrat";
-          text-align: center;
-        }
-}
-
-
-@media (min-width: 320px) and (max-width: 700px) {
-
   .m-cheat {
       display: flex;
       flex-direction: column-reverse;
     }
 }
-
-
 @media (min-width: 320px) and (max-width: 700px) {
-
   .titles_of_header_and_btn {
       margin-top: 40px;
     }
 }
 @media (min-width: 320px) and (max-width: 700px) {
-
   .g-h-i-b-1{
     height: 32px;
     width: 32px;
@@ -582,11 +548,8 @@ body {
     left: 64%;
     top: 13%;
   }
-  
 }
-
 @media (min-width: 320px) and (max-width: 700px) {
-  
   .g-h-i-b-2{
     height: 32px;
     width: 32px;
@@ -600,12 +563,8 @@ body {
     left: 64%;
     top: 37%;
   }
-
 }
-
-
 @media (min-width: 320px) and (max-width: 700px) {
-    
   .g-h-i-b-3{
     height: 32px;
     width: 32px;
@@ -619,9 +578,7 @@ body {
     left: 64%;
     top: 61%;
   }
-
 }
-
 @media (min-width: 320px) and (max-width: 700px) {
   .g-h-i-b-4{
     height: 32px;
@@ -636,23 +593,18 @@ body {
     left: 64%;
     top: 89%;
   }
-
 }
-
-
-
 @media (min-width: 320px) and (max-width: 700px) {
-
-
 .titles_of_header_and_btn {
-  margin-top: 40px;
+  margin-top: 23px;
   padding-bottom: 138px;
+    }
 }
-
-
+@media (min-width: 320px) and (max-width: 700px){
+    .btn_footer{
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
 }
-
 /* ----------------------------------End Mobile----------------------------------------- */
-
-
 /* ----------------------------------End Media------------------------------------------ */
