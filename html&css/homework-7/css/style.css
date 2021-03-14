@@ -11,6 +11,7 @@
 
 body {
   width: auto;
+  height: auto;
 }
 
 /* ------------------------------------------HEADER------------------------------------------ */
@@ -19,31 +20,19 @@ body {
   max-width: 940px;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
-/*  
-background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) )
-, url('/img/back/home-back.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-background-position: top; */
-
 .header {
-  padding-top: 43px;
-  /* background-size: cover; */
-  position: relative;
-  /* background: url(../images/h-bg.png) center no-repeat; */
-  /* -webkit-background-size: cover;
-  background-size: cover; */
-
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1)),
     url("../images/h-bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
   background-attachment: fixed;
   background-position: top;
+  background-size: cover;
+  position: relative;
+  height: auto;
+  padding-top: 45px;
 }
 
 .navigation {
@@ -69,7 +58,6 @@ background-position: top; */
   color: #95e1d3;
   display: flex;
   align-items: center;
-  /* margin-left: 600px; */
 }
 
 .menu-item:not(:last-child) {
@@ -112,14 +100,8 @@ background-position: top; */
 
 .titles_of_header_and_btn {
   margin-top: 142px;
-  margin-bottom: 233px;
+  padding-bottom: 233px;
 }
-
-/* .h-border {
-  position: absolute;
-  top: 35px;
-  left: 75.4%;
-} */
 
 .title_1_header {
   font-size: 52px;
@@ -139,7 +121,6 @@ background-position: top; */
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-transform: uppercase;
-  /* line-height: 1.2; */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -149,7 +130,6 @@ background-position: top; */
   font-size: 24px;
   font-family: "Roboto";
   color: rgb(255, 255, 255);
-  /* line-height: 1.2; */
   display: flex;
   justify-content: center;
   margin-top: 27px;
@@ -175,95 +155,94 @@ background-position: top; */
   border-color: rgb(255, 78, 80);
 }
 
-/* .Find_your_holiday_partner {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-
-  text-align: center;;
-}
-
- */
-
-
 /* -------------------------------------------------- Main------------------------------------------------------------------ */
 
-.m-title-1{
+.m-title-1 {
   font-size: 22px;
-color: #333333;
-font-weight: 700;
-font-family: "Montserrat";
-text-align: center;
-margin-top: 75px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 64px;
 }
 
-.img-container{
+.g-h-i-b-1 {
   display: flex;
-  justify-content: space-around;
-} 
-
-
-.g-h-i-b-1{
   height: 32px;
   width: 32px;
   background-image: url(../images/Ellipse\ 1.png);
   background-repeat: no-repeat;
   background-size: 32px 32px;
-  display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
+  left: 140px;
+  top: 125px;
 }
 
-.g-h-i-b-2{
+.g-h-i-b-2 {
+  display: flex;
   height: 32px;
   width: 32px;
   background-image: url(../images/Ellipse\ 2.png);
   background-repeat: no-repeat;
   background-size: 32px 32px;
-  display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
+  left: 380px;
+  top: 125px;
 }
 
-.g-h-i-b-3{
+.g-h-i-b-3 {
+  display: flex;
   height: 32px;
   width: 32px;
   background-image: url(../images/Ellipse\ 3.png);
   background-repeat: no-repeat;
   background-size: 32px 32px;
-  display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
+  left: 620px;
+  top: 125px;
 }
-
-.g-h-i-b-4{
+/* .Layer_9 {
+  background-image: url("Layer 9.png");
+  position: absolute;
+  left: 1018px;
+  top: 823px;
+  width: 126px;
+  height: 126px;
+  z-index: 30;
+}
+*/
+.g-h-i-b-4 {
+  display: flex;
   height: 32px;
   width: 32px;
   background-image: url(../images/Ellipse\ 4.png);
   background-repeat: no-repeat;
   background-size: 32px 32px;
-  display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-} 
+  left: 860px;
+  top: 125px;
+}
 
-.guy-hobbybg-1{
-  height: 32px;
-  width: 32px;
+.guy-hobbybg-1 {
   background-color: red;
   border-radius: 50%;
   position: absolute;
+  height: 32px;
+  width: 32px;
   top: 112.5%;
   left: 23.6%;
   z-index: 1;
 }
 
-.guy-hobbybg-2{
+.guy-hobbybg-2 {
   height: 40px;
   width: 40px;
   background-color: white;
@@ -274,96 +253,108 @@ margin-top: 75px;
   z-index: 0;
 }
 
-.p-1-box{
-  position: static;
-  /* margin-left: 300px; */
-  margin-top: 38px;
-  padding: static;
+.p-1-box {
+  justify-content: space-between;
+  margin-top: 30px;
+  /* border: 1px solid crimson; */
 }
 
-.guy-text{
-    font-size: 14px;
-    font-family: "Roboto";
-    color: rgb(102, 102, 102);
-    line-height: 1.2;
-    text-align: center;
-    margin-top: 22px;
-    margin-bottom: 72px;
+.guy-text {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 13px;
+  width: 220px;
 }
 
-.guy-name{
-    font-size: 14px;
-    font-family: "Montserrat";
-    color: rgb(51, 51, 51);
-    font-weight: bold;
-    line-height: 1.2;  
-    text-align: center;
-    margin-top: 25px;
+.guy-name {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 17px;
 }
 
-.p-img{
+.p-img {
   display: flex;
   justify-content: center;
   margin-left: 51px;
 }
 
-.guy-img{
+.guy-img {
   display: flex;
   justify-content: center;
+  width: 126px;
+  height: 126px;
   margin-left: 51px;
-  position: static;
 }
 
-.guys-s{
+.guys-s {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  position: relative;
 }
+
 /* ---------------------------------------------------End Menu-------------------------------------------------------------- */
 /* ---------------------------------------------------footer-------------------------------------------------------------- */
-.footer{
+.footer {
   display: flex;
   justify-content: center;
 }
 
-.f-button{
-  background-color: #fff;
+.btn_footer {
+  margin-top: 34px;
+  margin-bottom: 74px;
+}
+
+.f-button {
   font-size: 14px;
   font-family: "Montserrat";
   color: red;
+  background-color: #fff;
+  border-color: rgb(255, 78, 80);
   font-weight: bold;
-  line-height: 1.2;   
+  line-height: 1.2;
+  border-radius: 12px;
+  border-width: 2px;
+  cursor: pointer;
   width: 225px;
   height: 40px;
-  border-radius: 12px;
-  border-color: rgb(255, 78, 80);        
-  margin-top: 39px;
-  margin-bottom: 73px; 
-  border-width: 2px;
 }
 /* ------------------------------------------FOOTER------------------------------------------ */
 
-/* ----------------------------------Media------------------------------------------ */
-
-
-/* ----------------------------------Descktop--------------------------------------- */
-
-@media screen and (max-width: 1401px) {
+/* ----------------------------------Tablet----------------------------------------- */
+@media (min-width: 768px) and (max-width: 1300px) {
   
   .p-1-box {
-    border: 1px solid crimson;
-    max-width: 223px;
+    width: 224px;
   }
 }
 
-@media screen and (max-width: 1401px) {
+@media (min-width: 768px) and (max-width: 1300px) {
   
-  .p-1-box {
-    border: 1px solid crimson;
+  .guys-s {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  
+  .container {
+    max-width: 670px;
+    margin: 0 auto;
+    padding: 0;
   }
 }
 
-
-@media screen and (max-width: 1400px) {
+@media (min-width: 768px) and (max-width: 1300px) {
   
   .g-h-i-b-1{
     height: 32px;
@@ -376,12 +367,12 @@ margin-top: 75px;
     align-items: center;
     position: absolute;
     left: 33%;
-    top: 140%;
+    top: 25%;
   }
   
 }
 
-@media screen and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 1300px) {
   
   .g-h-i-b-2{
     height: 32px;
@@ -393,12 +384,13 @@ margin-top: 75px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 76%;
-    top: 104%;
+    left: 78%;
+    top: 25%;
   }
-}
 
-@media screen and (max-width: 900px) {
+}
+ 
+@media (min-width: 768px) and (max-width: 1300px) {
   
   .g-h-i-b-3{
     height: 32px;
@@ -411,11 +403,12 @@ margin-top: 75px;
     align-items: center;
     position: absolute;
     left:33%;
-    top: 140%;
+    top: 72%;
   }
-}
 
-@media screen and (max-width: 900px) {
+} 
+
+@media (min-width: 768px) and (max-width: 1300px) {
   
   .g-h-i-b-4{
     height: 32px;
@@ -427,51 +420,155 @@ margin-top: 75px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 76%;
-    top: 140%;
+    left: 78%;
+    top: 72%;
   }
-}
-/* ----------------------------------End Decktop------------------------------------ */
 
-/* ----------------------------------Tablet----------------------------------------- */
-@media screen and (max-width: 900px) {
-  
-  .p-1-box {
-    border: 1px solid crimson;
-    max-width: 223px;
-  }
 }
 
-@media screen and (max-width: 900px) {
-  
-  .p-1-box {
-    border: 1px solid crimson;
-    max-width: 223px;
-  }
-}
 
-@media screen and (max-width: 900px) {
-  
-  .guys-s {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-  
-}
 
-@media screen and (max-width: 900px) {
+
+/* ----------------------------------End Tablet----------------------------------------- */
+
+
+/* ----------------------------------Mobile--------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 700px) {
   
   .container {
-    max-width: 670px;
+    max-width: 280px;
     margin: 0 auto;
     padding: 0;
-    border: 1px solid crimson;
   }
+
 }
 
-@media screen and (max-width: 900px) {
+@media (min-width: 320px) and (max-width: 700px) {
   
+  .title_1_header {
+      font-size: 30px;
+       font-family: "Montserrat";
+       color: rgb(255, 255, 255);
+       font-weight: bold;
+       text-transform: uppercase;
+       line-height: 1.2;
+       text-align: center;
+     }
+
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+  
+
+  .p-1-box {
+    max-width: 224px;
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+  
+
+  
+.guys-s {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+ 
+}
+ 
+
+@media (min-width: 320px) and (max-width: 700px) {
+  
+  .title_2_header {
+      font-size: 30px;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: "Montserrat";
+      text-align: center;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+  .title_3_header {
+      font-size: 18px;
+      color: #ffffff;
+      font-weight: 300;
+      font-family: "Roboto";
+      text-align: center;
+     }
+
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+  .navigation {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+  .logo {
+      font-size: 20px;
+      font-family: "Montserrat", sans-serif;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-decoration: none;
+      text-align: center;
+      margin-top: 132px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+  .menu {
+      color: #95e1d3;
+      display: flex;
+      align-items: center;
+      /* margin-left: 600px; */
+      margin-left: 83px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+      .m-title-1{
+          font-size: 22px;
+          color: #333333;
+          font-weight: 700;
+          font-family: "Montserrat";
+          text-align: center;
+        }
+}
+
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+  .m-cheat {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+  .titles_of_header_and_btn {
+      margin-top: 40px;
+    }
+}
+@media (min-width: 320px) and (max-width: 700px) {
+
   .g-h-i-b-1{
     height: 32px;
     width: 32px;
@@ -482,13 +579,13 @@ margin-top: 75px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 35%;
-    top: 104%;
+    left: 64%;
+    top: 13%;
   }
   
 }
 
-@media screen and (max-width: 900px) {
+@media (min-width: 320px) and (max-width: 700px) {
   
   .g-h-i-b-2{
     height: 32px;
@@ -500,14 +597,15 @@ margin-top: 75px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 74%;
-    top: 104%;
+    left: 64%;
+    top: 37%;
   }
 
 }
 
-@media screen and (max-width: 900px) {
-  
+
+@media (min-width: 320px) and (max-width: 700px) {
+    
   .g-h-i-b-3{
     height: 32px;
     width: 32px;
@@ -518,14 +616,13 @@ margin-top: 75px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left:35%;
-    top: 140%;
+    left: 64%;
+    top: 61%;
   }
 
 }
 
-@media screen and (max-width: 900px) {
-  
+@media (min-width: 320px) and (max-width: 700px) {
   .g-h-i-b-4{
     height: 32px;
     width: 32px;
@@ -536,25 +633,26 @@ margin-top: 75px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 74%;
-    top: 140%;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-  
-  .container {
-    max-width: 280px;
-    margin: 0 auto;
-    padding: 0;
-    border: 1px solid crimson;
+    left: 64%;
+    top: 89%;
   }
 
 }
 
 
-/* ------------------------------------------------------------------------------------ */
+
+@media (min-width: 320px) and (max-width: 700px) {
 
 
-/* ------------------------------------------End Media---------------------------------------- */
+.titles_of_header_and_btn {
+  margin-top: 40px;
+  padding-bottom: 138px;
+}
+
+
+}
+
+/* ----------------------------------End Mobile----------------------------------------- */
+
+
+/* ----------------------------------End Media------------------------------------------ */
