@@ -103,19 +103,7 @@ body {
   padding-bottom: 233px;
 }
 
-.title_1_header {
-  font-size: 52px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.title_2_header {
+.title-header {
   font-size: 52px;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
@@ -328,12 +316,27 @@ body {
 /* ------------------------------------------FOOTER------------------------------------------ */
 
 /* ----------------------------------Tablet----------------------------------------- */
-@media (min-width: 768px) and (max-width: 1300px) {
+@media screen and (min-width: 768px) and (max-width: 1300px){
   .p-1-box {
     width: 236px;
   }
 }
-@media (min-width: 768px) and (max-width: 1300px) {
+
+@media screen and (min-width: 768px) and (max-width: 1300px){
+  .title-header {
+    font-size: 52px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1300px){
   
   .guys-s {
     display: flex;
@@ -341,7 +344,7 @@ body {
     flex-wrap: wrap;
   }
 }
-@media (min-width: 768px) and (max-width: 1300px) {
+@media screen and (min-width: 768px) and (max-width: 1300px){
   .container {
     max-width: 670px;
     margin: 0 auto;
@@ -349,7 +352,7 @@ body {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media screen and (min-width: 768px) and (max-width: 1300px){
   .g-h-i-b-1{
     height: 32px;
     width: 32px;
@@ -364,7 +367,7 @@ body {
     top: 25%;
   }
 }
-@media (min-width: 768px) and (max-width: 1300px) {
+@media screen and (min-width: 768px) and (max-width: 1300px){
   .g-h-i-b-2{
     height: 32px;
     width: 32px;
@@ -379,7 +382,7 @@ body {
     top: 25%;
   }
 }
-@media (min-width: 768px) and (max-width: 1300px) {
+@media screen and (min-width: 768px) and (max-width: 1300px){
   .g-h-i-b-3{
     height: 32px;
     width: 32px;
@@ -394,7 +397,7 @@ body {
     top: 72%;
   }
 } 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media screen and (min-width: 768px) and (max-width: 1300px){
   .g-h-i-b-4{
     height: 32px;
     width: 32px;
@@ -410,7 +413,7 @@ body {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1300px){
+@media screen and (min-width: 768px) and (max-width: 1300px){
     .box_3, .box_4{
         margin-top: 56px;
     }
@@ -421,12 +424,12 @@ body {
 /* ----------------------------------End Tablet----------------------------------------- */
 /* ----------------------------------Mobile--------------------------------------------- */
 
-@media (min-width: 320px) and (max-width: 700px){
+@media screen and (min-width: 320px) and (max-width: 700px){
     .header{
         padding-top: 28px;
     }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   
   .container {
     max-width: 280px;
@@ -434,9 +437,9 @@ body {
     padding: 0;
   }
 }
-@media (min-width: 320px) and (max-width: 700px) {
-  .title_1_header {
-      font-size: 30px;
+@media screen and (min-width: 320px) and (max-width: 700px){
+  .title-header  {
+      font-size: 29px;
        font-family: "Montserrat", sans-serif;
        color: rgb(255, 255, 255);
        font-weight: bold;
@@ -445,7 +448,8 @@ body {
        text-align: center;
     }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+
+@media screen and (min-width: 320px) and (max-width: 700px){
   .p-1-box {
     max-width: 224px;
     margin-top: 25px;
@@ -454,24 +458,14 @@ body {
       margin-top: 13px;
   }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
 .guys-s {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
     }
 }
-@media (min-width: 320px) and (max-width: 700px) {
-  
-  .title_2_header {
-      font-size: 30px;
-      color: #ffffff;
-      font-weight: 700;
-      font-family: "Montserrat";
-      text-align: center;
-    }
-}
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   .title_3_header {
       font-size: 18px;
       color: #ffffff;
@@ -482,14 +476,14 @@ body {
       /* padding-bottom: 154px; */
     }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   .navigation {
       display: flex;
       flex-direction: column-reverse;
       justify-content: center;
     }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   .logo {
       font-size: 20px;
       font-family: "Montserrat", sans-serif;
@@ -503,7 +497,7 @@ body {
       margin-bottom: 4px;
     }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   .menu {
       color: #95e1d3;
       display: flex;
@@ -512,7 +506,7 @@ body {
       margin-left: 68px;
     }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
 
     .m-title-1{
         font-size: 22px;
@@ -523,18 +517,18 @@ body {
     }
 }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   .m-cheat {
       display: flex;
       flex-direction: column-reverse;
     }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   .titles_of_header_and_btn {
       margin-top: 40px;
     }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   .g-h-i-b-1{
     height: 32px;
     width: 32px;
@@ -549,7 +543,7 @@ body {
     top: 13%;
   }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   .g-h-i-b-2{
     height: 32px;
     width: 32px;
@@ -564,7 +558,7 @@ body {
     top: 37%;
   }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   .g-h-i-b-3{
     height: 32px;
     width: 32px;
@@ -579,7 +573,7 @@ body {
     top: 61%;
   }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
   .g-h-i-b-4{
     height: 32px;
     width: 32px;
@@ -594,13 +588,13 @@ body {
     top: 89%;
   }
 }
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen and (min-width: 320px) and (max-width: 700px){
 .titles_of_header_and_btn {
   margin-top: 23px;
   padding-bottom: 138px;
     }
 }
-@media (min-width: 320px) and (max-width: 700px){
+@media screen and (min-width: 320px) and (max-width: 700px){
     .btn_footer{
         margin-top: 25px;
         margin-bottom: 60px;
