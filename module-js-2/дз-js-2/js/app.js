@@ -16,122 +16,44 @@ function hello2(){
 
 //   3
 
+function mul(n, m) {
+    return `n * m = ${n * m}, n + m = ${n + m}, n - m = ${n - m}`;
+}
+
+console.log(mul(4,5));
 
 //   4
 
+const myNewArrowFunction = (...mes) => {
+    console.log(mes);
+}
 
+myNewArrowFunction(1, 2, 3);
+myNewArrowFunction(100, 200, 300, 400, 500);
+myNewArrowFunction("JS", "Python", "Java", "PHP", "C++");
 
 //  5
 
 
-// function myAverageScore (..._myAverageScore =[ prompt('ur Array')]){
-//     let _z;
-//     let x;
+let marks = [93, 99, 93, 96];
 
-//     if(_myAverageScore.length = 2){
-//       let  _z = _myAverageScore[0] + _myAverageScore[1];
-//       let  x = _z / _myAverageScore.length;
-//         if (x<=91, x>=100){
-//             console.log('Myaveragescore: A');
-//          }
-//          else if (x<=81, x>=90){
-//            console.log('  My average score: B');
-//          }
-//          else if (x<=71, x>=80){
-//            console.log('  My average score: C');
-//          }
-//          else if (x<70){
-//             console.log('  My average score: D');
-//           }
-//     }
+const myAverageScore = function (...marks) {
+    let totalMarks = 0;
+    let lastMark;
+    for (const total of  arguments) {
+        totalMarks += total;
+    };
 
-//     else if(_myAverageScore.length = 3){
-//       let _z = _myAverageScore[0] + _myAverageScore[1] + _myAverageScore[2];
-//        let  x = _z / _myAverageScore.length;
-//        if (x<=91, x>=100){
-//         console.log('Myaveragescore: A');
-//      }
-//      else if (x<=81, x>=90){
-//        console.log('  My average score: B');
-//      }
-//      else if (x<=71, x>=80){
-//        console.log('  My average score: C');
-//      }
-//      else if (x<70){
-//         console.log('  My average score: D');
-//       }
-// }
-   
-
-//    else if(_myAverageScore.length = 4){
-//       let _z = _myAverageScore[0] + _myAverageScore[1] + _myAverageScore[2] + _myAverageScore[3];
-//        let  x = _z / _myAverageScore.length;
-//        if (x<=91, x>=100){
-//         console.log('Myaveragescore: A');
-//      }
-//      else if (x<=81, x>=90){
-//        console.log('  My average score: B');
-//      }
-//      else if (x<=71, x>=80){
-//        console.log('  My average score: C');
-//      }
-//      else if (x<70){
-//         console.log('  My average score: D');
-//       }
-// }
-//    }
-const sum = function() {
-  let total = 0;
-
-  for (const argument of arguments) {
-    total += argument;
-  }
-
-  return total;
+    lastMark = totalMarks / marks.length;
+    if (lastMark <= 100 && lastMark >= 91) {
+         console.log('My average score: A');
+    } else if (lastMark <= 90 && lastMark >= 81) {
+         console.log('My average score: B');
+    } else if (lastMark <= 80 && lastMark >= 71) {
+         console.log('My average score: C');
+    } else if (lastMark <= 70) {
+         console.log('My average score: D');
+    };
 };
 
-console.log(sum(1, 2, 3)); //  6
-console.log(sum(1, 2, 3, 4)); //  10
-console.log(sum(1, 2, 3, 4, 5)); //  15
-
-myAverageScore();
-
-
-
-
-
-
-
-
-const myAverageScore = function () {
-  if (arguments >= Math.round(Math.random() * (100 - 91) + 1)) {
-      let range = 0;
-      for (const scores1 of arguments){
-          range += scores1;
-      };
-      return console.log('My average score: A');
-  }else if (arguments >= Math.round(Math.random() * (90 - 81) + 1)) {
-      let range = 0;
-      for (const scores1 of arguments){
-          range += scores1;
-      };
-      return console.log('My average score: B');
-  }else if (arguments >= Math.round(Math.random() * (80 - 71) + 1)) {
-      let range = 0;
-      for (const scores1 of arguments){
-          range += scores1;
-      };
-      return console.log('My average score: C');
-  }else if (arguments <= 70) {
-      let range = 0;
-      for (const scores1 of arguments){
-          range += scores1;
-      };
-      return console.log('My average score: D');
-  }
-};
-
-
-myAverageScore(2, 2);
-
-
+myAverageScore(...marks);
